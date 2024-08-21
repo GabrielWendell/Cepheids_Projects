@@ -60,7 +60,7 @@ git clone https://github.com/GabrielWendell/Cepheids_Projects/Cepheids_Projects.
 cd Cepheids_Projects
 pip install -r requirements.txt
 ```
-This will download the code and instructions 😄
+This will download the code and instructions.
 
 
 ### Repository Structure
