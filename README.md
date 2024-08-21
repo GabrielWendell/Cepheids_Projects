@@ -5,17 +5,17 @@ Cepheids and RR Lyrae are pulsating stars whose pulsation period is strongly cor
 2. The integration of machine learning to estimate fundamental parameters for Cepheid and RR Lyrae variables.
 
 ## ✨ First Project : Hierarchical Models
-**Main objective** 
+### Main objective
 > Development of an algorithm using Monte Carlo methods via Markov chain with Metropolis-Hasting to analyze the $(P-L)$ relationship in several galaxies, with the aim of determining whether the $(P-L)$ parameters are consistent and potentially universal in different galactic environments.
 
-**Status**
+### Status
 - Here you can consult the project [log](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Log.md)
 
 ## 🎇 Second Project : Neural Networks
-**Main objective** 
+### Main objective 
 > An artificial Neural Network (ANN) was trained using theoretical pulsation models to predict the fundamental parameters of pulsating stars based on their periods and light curve structures. The aim of this procedure is to increase the accuracy of these estimates by combining theoretical models with observational data.
 
-**Status**
+### Status
 - Here you can consult the project [log]()
 
 ---
