@@ -38,17 +38,17 @@ git --version
 ```
 
 If no version appears, then you will need to download it. Depending on your operating system, you can install it as follows:
-> I. **Mac OSX**
-> - Install the package from [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
+I. **Mac OSX**
+- Install the package from [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
 
-> II. **Linux**
-> - Depending on your distribution:
->   
-> **A**. Debian and Ubuntu-based distros:
+II. **Linux**
+Depending on your distribution:
+   
+- **A**. Debian and Ubuntu-based distros:
 > ```terminal
 > sudo apt-get install git
 > ```
-> **B**. Red-Hat-based distros:
+- **B**. Red-Hat-based distros:
 > ```terminal
 > sudo yum install git
 > ```
@@ -83,7 +83,7 @@ This will download the code and instructions 😄
 We welcome contributions from the academic and scientific communities. If you are interested in collaborating or have any suggestions for improving the projects, please refer to the individual project folders for specific guidelines or reach out via the contact information provided below.
 
 ### License
-This repository is distributed under the [MIT License](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/LICENSE). Please refer to the license file for more information.
+This repository is distributed under the [GNU v.3.0 License](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/LICENSE). Please refer to the license file for more information.
 
 ### Contact
 For any inquiries related to this repository or ongoing research, please contact:
