@@ -62,7 +62,7 @@ pip install -r requirements.txt
 This will download the code and instructions 😄
 
 
-## Repository Structure
+### Repository Structure
 ```bash
 ├── Project_1_Hierarchical_Models/  # Folder for Project 1
 │   ├── data/                       # Data files related to Project 1
