@@ -11,7 +11,6 @@ This repository is organized into individual projects, each exploring a unique a
 
 ## Projects
 ### 1. Hierarchical Models Applied to the $(P-L)$ Relationship
-#### Project Description
 This project aims to explore the universality of the Period-Luminosity $(P-L)$ relationship across different galaxies using hierarchical models. By employing the Monte Carlo Markov Chain (MCMC) method with the Metropolis-Hastings (MH) algorithm, we analyze the P-L relationship parameters in various galactic environments. The goal is to determine whether these parameters remain consistent and potentially universal, thus providing insights into the broader applicability of the $(P-L)$ relationship in cosmic distance measurements.
 
 #### References
@@ -21,7 +20,6 @@ You can check project updates here : [Log 1](https://github.com/GabrielWendell/C
 
 
 ### 2. Neural Networks to Applied to Cepheids Fundamental Parameters
-#### Project Description
 In this project, we develop an Artificial Neural Network (ANN) designed to predict the fundamental parameters of Cepheid stars based on their pulsation periods and light curve structures. The ANN is trained using a combination of theoretical pulsation models and observational data. The objective is to enhance the accuracy of stellar parameter predictions by leveraging the strengths of both theoretical models and empirical data.
 
 #### References
