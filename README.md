@@ -38,17 +38,18 @@ git --version
 ```
 
 If no version appears, then you will need to download it. Depending on your operating system, you can install it as follows:
+
 I. **Mac OSX**
 - Install the package from [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
 
-II. **Linux**
+II. **Linux** \
 Depending on your distribution:
    
-- **A**. Debian and Ubuntu-based distros:
+- Debian and Ubuntu-based distros:
 ```terminal
 sudo apt-get install git
 ```
-- **B**. Red-Hat-based distros:
+- Red-Hat-based distros:
 ```terminal
 sudo yum install git
 ```
