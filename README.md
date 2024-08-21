@@ -45,13 +45,13 @@ II. **Linux**
 Depending on your distribution:
    
 - **A**. Debian and Ubuntu-based distros:
-> ```terminal
-> sudo apt-get install git
-> ```
+```terminal
+sudo apt-get install git
+```
 - **B**. Red-Hat-based distros:
-> ```terminal
-> sudo yum install git
-> ```
+```terminal
+sudo yum install git
+```
 
 Once done, from a new terminal create a directory dedicated for this tool with the name `Cepheids_Projects`, and from it, clone this github files and intall the necessary components:
 ```
