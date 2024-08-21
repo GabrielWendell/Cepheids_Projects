@@ -14,16 +14,20 @@ This repository is organized into individual projects, each exploring a unique a
 #### Project Description
 This project aims to explore the universality of the Period-Luminosity $(P-L)$ relationship across different galaxies using hierarchical models. By employing the Monte Carlo Markov Chain (MCMC) method with the Metropolis-Hastings (MH) algorithm, we analyze the P-L relationship parameters in various galactic environments. The goal is to determine whether these parameters remain consistent and potentially universal, thus providing insights into the broader applicability of the $(P-L)$ relationship in cosmic distance measurements.
 
-- **Folder :** [`Project_1`](https://github.com/GabrielWendell/Cepheids_Projects/tree/main/Project_1)
-- **Logs :** [`log_project1.md`](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/log_project1.md)
+#### References
+> [Riess et al. 2011](https://ui.adsabs.harvard.edu/abs/2011ApJ...730..119R/abstract)
+
+You can check project updates here : [Log 1](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/log_project1.md)
 
 
 ### 2. Neural Networks to Applied to Cepheids Fundamental Parameters
 #### Project Description
 In this project, we develop an Artificial Neural Network (ANN) designed to predict the fundamental parameters of Cepheid stars based on their pulsation periods and light curve structures. The ANN is trained using a combination of theoretical pulsation models and observational data. The objective is to enhance the accuracy of stellar parameter predictions by leveraging the strengths of both theoretical models and empirical data.
 
-- **Folder :** [`Project_2`](https://github.com/GabrielWendell/Cepheids_Projects/tree/main/Project_2)
-- **Logs :** [`log_project2.md`](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
+#### References
+> [Bellinger et al. 2020](https://academic.oup.com/mnras/article/491/4/4752/5645255)
+
+You can check project updates here : [Log 2](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
 
 ---
 
