@@ -11,12 +11,12 @@ This repository is organized into individual projects, each exploring a unique a
 
 ## Projects
 ### 1. Hierarchical Models Applied to the $(P-L)$ Relationship
-This project aims to explore the universality of the Period-Luminosity $(P-L)$ relationship across different galaxies using hierarchical models. By employing the Monte Carlo Markov Chain (MCMC) method with the Metropolis-Hastings (MH) algorithm, we analyze the P-L relationship parameters in various galactic environments. The goal is to determine whether these parameters remain consistent and potentially universal, thus providing insights into the broader applicability of the $(P-L)$ relationship in cosmic distance measurements.
+This project aims to explore the universality of the Period-Luminosity $(P-L)$ relationship across different galaxies using hierarchical models. By employing the Monte Carlo Markov Chain (MCMC) method with the Metropolis-Hastings (MH) algorithm, we analyze the $(P-L)$ relationship parameters in various galactic environments. The goal is to determine whether these parameters remain consistent and potentially universal, thus providing insights into the broader applicability of the $(P-L)$ relationship in cosmic distance measurements.
 
 #### References
 > [Riess et al. 2011](https://ui.adsabs.harvard.edu/abs/2011ApJ...730..119R/abstract)
 
-You can check project updates here : [Log 1](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/log_project1.md)
+You can check project updates here : [Log 1](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/README.md)
 
 
 ### 2. Neural Networks to Applied to Cepheids Fundamental Parameters
