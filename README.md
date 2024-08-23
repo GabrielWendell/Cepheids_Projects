@@ -88,10 +88,10 @@ This repository is distributed under the [GNU v.3.0 License](https://github.com/
 
 ### Contact
 For any inquiries related to this repository or ongoing research, please contact:
-- **Project Members :**
+- **Project Members**
 > - [Gabriel Wendell Celestino Rocha](http://lattes.cnpq.br/0049111339899544)
 > - [Leonardo Almeida de Andrade](http://lattes.cnpq.br/7812463045514059)
-- **GitHub :**
+- **GitHub :octocat:**
 > - [GabrielWendell](https://github.com/GabrielWendell)
 > - [TitanUFRN](https://github.com/titanufrn)
 
