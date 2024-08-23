@@ -1,4 +1,4 @@
-# Cepheids Research Projects
+# Cepheids Research Projects 🌌🔭
 ## Overview
 Welcome to the Cepheid Research Projects Repository, a comprehensive collection of ongoing projects dedicated to the development of research projects in Astrophysics involving Cepheid (and possibly RR Lyrae) variable stars.
 
