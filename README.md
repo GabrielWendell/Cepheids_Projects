@@ -63,19 +63,21 @@ This will download the code and instructions.
 
 ### Repository Structure
 ```bash
-├── Project_1_Hierarchical_Models/  # Folder for Project 1
+├── Project_1/                      # Folder for Project 1
 │   ├── data/                       # Data files related to Project 1
 │   ├── notebooks/                  # Jupyter Notebooks for Project 1
 │   ├── src/                        # Python scripts for Project 1
+│   ├── Plots/                      # Plots related to Project 1
 │   ├── logs/                       # Logs from the analysis
 │   ├── README.md                   # Detailed README for Project 1
-├── Project_2_Neural_Networks/       # Folder for Project 2
-│   ├── data/                        # Data files related to Project 2
-│   ├── notebooks/                   # Jupyter Notebooks for Project 2
-│   ├── src/                         # Python scripts for Project 2
-│   ├── logs/                        # Logs from the analysis
-│   ├── README.md                    # Detailed README for Project 2
-└── README.md                        # General README (this file)
+├── Project_2/                     # Folder for Project 2
+│   ├── data/                      # Data files related to Project 2
+│   ├── notebooks/                 # Jupyter Notebooks for Project 2
+│   ├── Plots/                     # Plots related to Project 2
+│   ├── src/                       # Python scripts for Project 2
+│   ├── logs/                      # Logs from the analysis
+│   ├── README.md                  # Detailed README for Project 2
+└── README.md                      # General README (this file)
 ```
 
 ### Contributing
