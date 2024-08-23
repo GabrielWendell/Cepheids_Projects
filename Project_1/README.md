@@ -68,7 +68,7 @@ The upcoming steps in the project include:
 ## Future Ideas
 Here are some potential ideas to explore in the future:
 - **Idea 1:** Use other samplers within MCMC such as HMC.
-- **Idea 2:** Check if the R11 dataset has received updates.
+- **Idea 2:** Check if the `R11` dataset has received updates.
 
 ---
 
