@@ -29,7 +29,8 @@ gantt
     Histogram Analysis             :done, 2024-08-08, 2024-08-09
     log[O/H] range fits            :done, 2024-08-08, 2024-08-10
     Linear fit                     :done, 2024-08-11, 2024-08-14
-    PGM + LMM implementation       :active, 2024-08-21
+    PGM implementation             :done, 2024-08-21, 2024-08-27
+    MCMC-MH for one galaxy         :active, 2024-08-27
     Future Steps       : 2024-08-31, 2024-09-10
 ```
 
@@ -43,25 +44,32 @@ gantt
 | 2024-08-06 | Analysis of histograms of rotation period frequencies and metallicity by galaxy | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
 | 2024-08-08 | Linear fit for metallicity for different metallicity ranges (Leonardo's idea) | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
 | 2024-08-14 | Linear Fit for the Period of the entire dataset. | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
-| 2024-08-21 | Construction of a PGM model to fit the $(P-L)$ relation for a specific galaxy. | Loading... | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
+| 2024-08-27 | Construction of a PGM model to fit the $(P-L)$ relation for a specific galaxy. | Done | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
+| 2024-08-27 | Obtaining the posterior distribution from MCMC-MH for the model $M_{ij}=M_{1}+a\cdot\log_{10}P_{ij}+b+\varepsilon_{ij}$ | Loading... | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
 
 
 
 ## Current Stage and Results
-As of the latest update, the project is in the **development phase of PGM and LMM to obtain the $(P-L)$ relation for a specific galaxy**. The latest results are as follows:
-- **Key Findings :** `Scipy` linear fit is not very good but it serves as a good start!
-- **Performance Metrics :** $a=-7.2781\pm 0.0323\quad,\quad b = -3.1175 \pm 0.1174$
+As of the latest update, the project is in the **Obtain the linear fit for the relation $(P-L)$ from the emcee module using the MH sampler and its variations for a specific galaxy**. The latest results are as follows:
+- **Key Findings :** Fit using PGM produced better but not very different results...
+- **Performance Metrics :** PGM Linear Fit 
+> Optimized $a_{i}$: $-2.8041024392018623 \pm 0.2827244443119007$
+> Optimized $b_{i}$: $-3.063083583619769 \pm 0.15806565965643068$
+> Optimized $\sigma_{i}$: $0.7254236426215227 \pm 0.02756171544859829$
 - **Last results obtained :**
 <p align = "center">
-  <img src = "https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Plots/Linear_fit-All_data.png" alt = "Linear fit for all data" width = "500" height = "300"/>
+  <img src = "img/Modified_Mathematical_Model.png" alt = "Modified Mathematical Model" width = "500" height = "300"/>
+</p>
+<p align = "center">
+  <img src = "Plots/PGM_Fit_X_Scipy_Fit.png" alt = "PGM Fit X Scipy Fit" width = "500" height = "300"/>
   <img src = "https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Plots/logO_H_fit_intervals.png" alt = "Linear fit for all Metalicity intervals" width = "300"/>
 </p>
 
 
 ## Next Steps
 The upcoming steps in the project include:
-1. Development of PGM and LLM for a specific galaxy ;
-2. Run `emcee` for the linear model of the relationship $(P-L)$ ;
+1. Run `emcee` for the linear model of the relationship $(P-L)$ ;
+2. Run `emcee` for the linear model of the relationship $(P-L)$ with different samplers;
 3. Repeat the procedure for multiple galaxies.
 
 ## Future Ideas
