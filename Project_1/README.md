@@ -53,16 +53,16 @@ gantt
 As of the latest update, the project is in the **Obtain the linear fit for the relation $(P-L)$ from the emcee module using the MH sampler and its variations for a specific galaxy**. The latest results are as follows:
 - **Key Findings :** Fit using PGM produced better but not very different results...
 - **Performance Metrics :** PGM Linear Fit 
-> Optimized $a_{i}$: $-2.8041024392018623 \pm 0.2827244443119007$
-> Optimized $b_{i}$: $-3.063083583619769 \pm 0.15806565965643068$
+> Optimized $a_{i}$: $-2.8041024392018623 \pm 0.2827244443119007$ \
+> Optimized $b_{i}$: $-3.063083583619769 \pm 0.15806565965643068$  \
 > Optimized $\sigma_{i}$: $0.7254236426215227 \pm 0.02756171544859829$
 - **Last results obtained :**
 <p align = "center">
-  <img src = "img/Modified_Mathematical_Model.png" alt = "Modified Mathematical Model" width = "500" height = "300"/>
+  <img src = "img/Modified_Mathematical_Model.png" alt = "Modified Mathematical Model" width = "1000" height = "250"/>
 </p>
 <p align = "center">
   <img src = "Plots/PGM_Fit_X_Scipy_Fit.png" alt = "PGM Fit X Scipy Fit" width = "500" height = "300"/>
-  <img src = "https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Plots/logO_H_fit_intervals.png" alt = "Linear fit for all Metalicity intervals" width = "300"/>
+  <img src = "Plots/corner_modified_model.png" alt = "Corner for the Modified Model" width = "300"/>
 </p>
 
 
