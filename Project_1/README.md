@@ -6,7 +6,8 @@
 3. [Current Stage and Results](#current-stage-and-results)
 4. [Next Steps](#next-steps)
 5. [Future Ideas](#future-ideas)
-6. [Bibliographic References](#bibliographic-references)
+7. [Bibliographic References](#bibliographic-references)
+8. [General Comments](#general-comments)
 
 ---
 
@@ -57,9 +58,9 @@ As of the latest update, the project is in the **Obtain the linear fit for the r
 > Optimized $b_{i}=$ $-3.063083583619769 \pm 0.15806565965643068$  \
 > Optimized $\sigma_{i}=$ $0.7254236426215227 \pm 0.02756171544859829$
 - **Last results obtained :**
-<p align = "center">
-  <img src = "img/Modified_Mathematical_Model.png" alt = "Modified Mathematical Model" width = "1000" height = "250"/>
-</p>
+
+Modified Mathematical Model: $$M_{ij}=M_{1}+a\cdot\log_{10}P_{ij}+b+\varepsilon_{ij}\text{ }.$$
+
 <p align = "center">
   <img src = "Plots/PGM_Fit_X_Scipy_Fit.png" alt = "PGM Fit X Scipy Fit" width = "500" height = "300"/>
   <img src = "Plots/corner_modified_model.png" alt = "Corner for the Modified Model" width = "300"/>
@@ -77,9 +78,23 @@ Here are some potential ideas to explore in the future:
 - **Idea 1:** Use other samplers within MCMC such as HMC.
 - **Idea 2:** Check if the `R11` dataset has received updates.
 
----
-
 ## Bibliographic References
 > - Riess paper: [Riess et al. 2011, *The Astrophysical Journal*, **730**(2), p.119.](https://iopscience.iop.org/article/10.1088/0004-637X/730/2/119/meta)
 > - PGM Book: [Koller, D. and Friedman, N., 2009. *Probabilistic graphical models: principles and techniques*. MIT press.](http://mcb111.org/w06/KollerFriedman.pdf)
 > - `emcee` paper: [Foreman-Mackey, et al., 2013, *Publications of the Astronomical Society of the Pacific*, **125**(925), p.306.](https://iopscience.iop.org/article/10.1086/670067/meta)
+
+
+## General Comments
+This section is dedicated to general discussions and comments among the project collaborators. Please include your name, the date, and your comment below.
+
+### Comments:
+
+**Name**: Wendell  
+**Date**: 2024-08-27  
+**Comment**:  
+> I implemented a linear fit on the data using PGM. Although it improved compared to the fit using Scipy, it was not very significant... \
+> I did the first tests using `emcee`. The results do not seem good to me, maybe I did or defined something wrong... I need to check it out calmly because this is my first time really using `emcee`.
+
+> What do you think?
+
+---
