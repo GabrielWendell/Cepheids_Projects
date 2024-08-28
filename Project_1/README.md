@@ -91,7 +91,6 @@ This section is dedicated to general discussions and comments among the project 
 
 **Name**: Wendell  
 **Date**: 2024-08-27  
-**Comment**:  
 > I implemented a linear fit on the data using PGM. Although it improved compared to the fit using Scipy, it was not very significant... \
 > I did the first tests using `emcee`. The results do not seem good to me, maybe I did or defined something wrong... I need to check it out calmly because this is my first time really using `emcee`.
 
