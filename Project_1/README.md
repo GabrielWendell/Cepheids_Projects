@@ -63,14 +63,14 @@ As of the latest update, the project is in the **use different statistical model
 
 - **Performance Metrics :** Fit  
   
-  > $a=-3.11748848959179\pm 0.11738523313974678$ 
+  > $a=-3.11748848959179\pm 0.11738523313974678$ \
   > $b=-2.6825523078758415\pm 0.1760344604089304$
 
 - **Last results obtained :**
 
 <p align = "center">
   <img src = "Plots/logO_H-Fit+Res.png" alt = "OLS Fit and Residuals" width = "500" height = "300"/>
-  <img src = "img/OLS-Model_Summary.png" alt = "OLS Model Summary" width = "300"/>
+  <img src = "img/OLS-Model_Summary.png" alt = "OLS Model Summary" width = "500" height = "300"/>
 </p>
 
 ## Next Steps
