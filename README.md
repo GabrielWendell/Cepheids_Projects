@@ -27,6 +27,15 @@ In this project, we develop an Artificial Neural Network (ANN) designed to predi
 
 You can check project updates here : [Log 2](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
 
+
+### 3. Investigating the Impact of Metallicity on the Period-Luminosity Relationship of Cepheids
+This project investigates the influence of $\log{\left[\text{O/H}\right]}$ metallicity on the Period-Luminosity $(P-L)$ relationship of Cepheids, which is a fundamental tool for determining cosmic distances. Understanding the effect of metallicity on the absolute magnitude $M$ of Cepheids is crucial, as it directly impacts the accuracy of distance measurements across different environments in the universe, thereby influencing our knowledge of the Hubble constant and the expansion rate of the universe. To assess this effect, the project employs a variety of statistical methods, including Multiple Linear Regressions and Generalized Additive Models (GAMs), to quantify the relationship between metallicity and luminosity. Additionally, the project aims to incorporate Machine Learning techniques in later stages to further refine the models and improve the predictive power of the $(P-L)$ relationship. By evaluating the role of metallicity, this research seeks to enhance the precision of distance calibration, contributing to more reliable cosmological measurements.
+
+#### References
+> [Trentin et al. 2023](https://www.aanda.org/articles/aa/full_html/2024/01/aa47195-23/aa47195-23.html)
+
+You can check project updates here : [Log 3](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
+
 ---
 
 ## Installation
@@ -65,18 +74,25 @@ This will download the code and instructions.
 ```bash
 ├── Project_1/                      # Folder for Project 1
 │   ├── data/                       # Data files related to Project 1
-│   ├── notebooks/                  # Jupyter Notebooks for Project 1
+│   ├── Notebooks/                  # Jupyter Notebooks for Project 1
 │   ├── src/                        # Python scripts for Project 1
 │   ├── Plots/                      # Plots related to Project 1
 │   ├── logs/                       # Logs from the analysis
 │   ├── README.md                   # Detailed README for Project 1
 ├── Project_2/                     # Folder for Project 2
 │   ├── data/                      # Data files related to Project 2
-│   ├── notebooks/                 # Jupyter Notebooks for Project 2
+│   ├── Notebooks/                 # Jupyter Notebooks for Project 2
 │   ├── Plots/                     # Plots related to Project 2
 │   ├── src/                       # Python scripts for Project 2
 │   ├── logs/                      # Logs from the analysis
 │   ├── README.md                  # Detailed README for Project 2
+├── Project_3/                     # Folder for Project 3
+│   ├── data/                      # Data files related to Project 3
+│   ├── Notebooks/                 # Jupyter Notebooks for Project 3
+│   ├── Plots/                     # Plots related to Project 3
+│   ├── src/                       # Python scripts for Project 3
+│   ├── logs/                      # Logs from the analysis
+│   ├── README.md                  # Detailed README for Project 3
 └── README.md                      # General README (this file)
 ```
 
@@ -84,15 +100,17 @@ This will download the code and instructions.
 We welcome contributions from the academic and scientific communities. If you are interested in collaborating or have any suggestions for improving the projects, please refer to the individual project folders for specific guidelines or reach out via the contact information provided below.
 
 ### License
-This repository is distributed under the [GNU v.3.0 License](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/LICENSE). Please refer to the license file for more information.
+This repository is distributed under the [MIT License](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/LICENSE). Please refer to the license file for more information.
 
 ### Contact
 For any inquiries related to this repository or ongoing research, please contact:
 - **Project Members**
 > - [Gabriel Wendell Celestino Rocha](http://lattes.cnpq.br/0049111339899544)
+> - [João Victor Ferreira Lacerda Aires](http://lattes.cnpq.br/2805900511454723)
 > - [Leonardo Almeida de Andrade](http://lattes.cnpq.br/7812463045514059)
 - **GitHub :octocat:**
 > - [GabrielWendell](https://github.com/GabrielWendell)
+> - [jvflaires](https://github.com/jvflaires)
 > - [TitanUFRN](https://github.com/titanufrn)
 
 ---
