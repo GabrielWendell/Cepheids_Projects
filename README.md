@@ -28,7 +28,7 @@ In this project, we develop an Artificial Neural Network (ANN) designed to predi
 You can check project updates here : [Log 2](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
 
 
-### 3. Investigating the Impact of Metallicity on the Period-Luminosity Relationship of Cepheids
+### 3. Impact of Metallicity on the Period-Luminosity Relationship of Cepheids
 This project investigates the influence of $\log{\left[\text{O/H}\right]}$ metallicity on the Period-Luminosity $(P-L)$ relationship of Cepheids, which is a fundamental tool for determining cosmic distances. To assess this effect, the project employs a variety of statistical methods, including Multiple Linear Regressions and Generalized Additive Models (GAMs), to quantify the relationship between metallicity and luminosity. Additionally, the project aims to incorporate Machine Learning techniques in later stages to further refine the models and improve the predictive power of the $(P-L)$ relationship. 
 
 #### References
