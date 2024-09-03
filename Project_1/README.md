@@ -43,21 +43,22 @@ gantt
 
 | Date       | Task                                                                                                                           | Progress   | Notebook                                                                                                        |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------- |
-| 2024-08-05 | Preprocessing of data from Riess et al. 2011: `R11` dataset                                                                    | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb)    |
-| 2024-08-05 | Master dataframe preparation: calculation of `d_L`, `M`, `Merr` and `logP`                                                     | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb)    |
-| 2024-08-06 | Visual analysis of dataframe information: $\log_{10}\text{P}\times M$, $\log_{10}\left[\text{O/H}\right]\times M$ (NGC Number) | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb)    |
-| 2024-08-06 | Analysis of histograms of rotation period frequencies and metallicity by galaxy                                                | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb)    |
-| 2024-08-08 | Linear fit for metallicity for different metallicity ranges (Leonardo's idea)                                                  | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb)    |
-| 2024-08-14 | Linear Fit for the Period of the entire dataset.                                                                               | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb)    |
-| 2024-08-27 | Construction of a PGM model to fit the $(P-L)$ relation for a specific galaxy.                                                 | Done       | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
-| 2024-08-27 | Obtaining the posterior distribution from MCMC-MH for the model $M_{ij}=M_{1}+a\cdot\log_{10}P_{ij}+b+\varepsilon_{ij}$        | Loading... | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
-| 2024-08-28 | Linear fit using OLS (Ordinary Linear Regression) and subtraction of the fit from the data to obtain the residuals.            | Loading... | Metallicity Analysis                                                                                            |
+| 2024-08-05 | Preprocessing of data from Riess et al. 2011: `R11` dataset                                                                    | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_Data.ipynb)    |
+| 2024-08-05 | Master dataframe preparation: calculation of `d_L`, `M`, `Merr` and `logP`                                                     | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_Data.ipynb)    |
+| 2024-08-06 | Visual analysis of dataframe information: $\log_{10}\text{P}\times M$, $\log_{10}\left[\text{O/H}\right]\times M$ (NGC Number) | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_Data.ipynb)    |
+| 2024-08-06 | Analysis of histograms of rotation period frequencies and metallicity by galaxy                                                | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_Data.ipynb)    |
+| 2024-08-08 | Linear fit for metallicity for different metallicity ranges (Leonardo's idea)                                                  | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_Data.ipynb)    |
+| 2024-08-14 | Linear Fit for the Period of the entire dataset.                                                                               | Done!      | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_Data.ipynb)    |
+| 2024-08-27 | Construction of a PGM model to fit the $(P-L)$ relation for a specific galaxy.                                                 | Done       | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_One_Galaxy.ipynb) |
+| 2024-08-27 | Obtaining the posterior distribution from MCMC-MH for the model $M_{ij}=M_{1}+a\cdot\log_{10}P_{ij}+b+\varepsilon_{ij}$        | Done!      | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_One_Galaxy.ipynb) |
+| 2024-08-28 | Linear fit using OLS (Ordinary Linear Regression) and subtraction of the fit from the data to obtain the residuals.            | Done!      | [Metallicity Analysis](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_3/Notebooks/Metallicity_Analysis.ipynb)|
+| 2024-09-02 | João takes the lead on the project. Adjusting the $(P-L)$ relationship using `emcee` to the data.                              | Loading... | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Notebooks/Cepheids_One_Galaxy.ipynb) |
 
 
 
 ## Current Stage and Results
 
-As of the latest update, the project is in the **use different statistical models to predict the influence of metallicit on the relation $(P-L)$**. The latest results are as follows:
+As of the latest update, the project is in the **use the `emcee` library for a linear fit to the data**. The latest results are as follows:
 
 - **Key Findings :** The residue presents a high dispersion..
 
@@ -111,5 +112,13 @@ This section is dedicated to general discussions and comments among the project 
 > I did the first tests using `emcee`. The results do not seem good to me, maybe I did or defined something wrong... I need to check it out calmly because this is my first time really using `emcee`.
 
 > What do you think?
+
+---
+
+**Name**: Wendell \
+**Date**: 2024-09-02
+
+> Include João in the project. The reason for including him was because he has more experience using the `emcee` library than I do, since he works with it daily. \
+> His name has already been included in the READMEs, Notebooks and License.
 
 ---
