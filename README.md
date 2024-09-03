@@ -34,7 +34,7 @@ This project investigates the influence of $\log{\left[\text{O/H}\right]}$ metal
 #### References
 > [Trentin et al. 2023](https://www.aanda.org/articles/aa/full_html/2024/01/aa47195-23/aa47195-23.html)
 
-You can check project updates here : [Log 3](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
+You can check project updates here : [Log 3](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_3/README.md)
 
 ---
 
