@@ -3,7 +3,7 @@
 Welcome to the Cepheid Research Projects Repository, a comprehensive collection of ongoing projects dedicated to the development of research projects in Astrophysics involving Cepheid (and possibly RR Lyrae) variable stars.
 
 ### Motivation
-Cepheids and RR Lyrae are pulsating stars whose pulsation period is strongly correlated with their mean absolute magnitude. Traditionally, these stars are part of the "distance scale", being crucial to calibrate type Ia supernovae and, therefore, to derive the expansion rate of the universe. The calibration procedure requires that the period-luminosity relation be universal, i.e., valid in all galaxies. 
+Cepheids and RR Lyrae are pulsating stars whose pulsation period is strongly correlated with their mean absolute magnitude. Traditionally, these stars are part of the "distance scale", being crucial to calibrate type Ia supernovae and, therefore, to derive the expansion rate of the universe. The calibration procedure requires that the period-luminosity relation be universal, i.e., valid in all galaxies.
 
 This repository is organized into individual projects, each exploring a unique aspect of Cepheid star research. Below, you will find a brief description of each project along with links to their respective folders for more detailed information.
 
@@ -42,7 +42,7 @@ I. **Mac OSX**
 
 II. **Linux** \
 Depending on your distribution:
-   
+
 - Debian and Ubuntu-based distros:
 ```terminal
 sudo apt-get install git
