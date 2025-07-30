@@ -38,6 +38,10 @@ You can check project updates here : [Log 3](https://github.com/GabrielWendell/C
 
 ---
 
+- You can check the results obtained in this project by reading the proceedings published at the XLVII Annual Meeting of the Brazilian Astronomical Society in 2024 : [G.W.C. Rocha, J. Aires, L.A. Almeida, Analysis of the period-luminosity relation for Cepheids, *Boletim da Sociedade Astronômica Brasileira*, **36**(1), 82-86 (2024)](https://sab-astro.org.br/wp-content/uploads/2025/05/Proceedings.pdf)
+
+---
+
 ## Installation
 First you need to check if you have git software installed on your machine. You can check by typing the following in your terminal:
 ```terminal
