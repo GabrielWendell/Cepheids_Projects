@@ -7,6 +7,9 @@ Cepheids and RR Lyrae are pulsating stars whose pulsation period is strongly cor
 
 This repository is organized into individual projects, each exploring a unique aspect of Cepheid star research. Below, you will find a brief description of each project along with links to their respective folders for more detailed information.
 
+You can check the results obtained in this project by reading the proceedings published at the XLVII Annual Meeting of the Brazilian Astronomical Society in 2024 :
+> - [G.W.C. Rocha, J. Aires, L.A. Almeida, Analysis of the period-luminosity relation for Cepheids, *Boletim da Sociedade Astronômica Brasileira*, **36**(1), 82-86 (2024)](https://sab-astro.org.br/wp-content/uploads/2025/05/Proceedings.pdf)
+
 ---
 
 ## Projects
@@ -35,10 +38,6 @@ This project investigates the influence of $\log{\left[\text{O/H}\right]}$ metal
 > [Trentin et al. 2023](https://www.aanda.org/articles/aa/full_html/2024/01/aa47195-23/aa47195-23.html)
 
 You can check project updates here : [Log 3](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_3/README.md)
-
----
-
-- You can check the results obtained in this project by reading the proceedings published at the XLVII Annual Meeting of the Brazilian Astronomical Society in 2024 : [G.W.C. Rocha, J. Aires, L.A. Almeida, Analysis of the period-luminosity relation for Cepheids, *Boletim da Sociedade Astronômica Brasileira*, **36**(1), 82-86 (2024)](https://sab-astro.org.br/wp-content/uploads/2025/05/Proceedings.pdf)
 
 ---
 
